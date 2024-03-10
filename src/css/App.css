@@ -170,7 +170,7 @@ body {
   display: block;
   width: 100%;
   height: 80vh;
-  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.9), rgba(0,0,0,0.4), rgba(0,0,0,0));
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.6), rgba(0,0,0,0.2), rgba(0,0,0,0));
   position:absolute;
 }
 
@@ -459,6 +459,12 @@ body {
   #nav-muncul {
     transform: translateX(0);
   }
+
+  .main-menu {
+    display: none;
+  } 
+
+
   .App-header {
     width: 100%;
     justify-content: center;
@@ -468,6 +474,7 @@ body {
   .hamburger-menu {
     display: block;
     margin-bottom: 10px;
+    margin-left: 50px;
   }
 
   .hamburger-menu {
@@ -534,11 +541,11 @@ body {
   }
 
   .slide-show h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .slide-show p {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   /* bagian poster movie list */
@@ -601,5 +608,9 @@ body {
   /* menu pada saat hamburger menu di klik */
   .pemisah h2 {
     z-index: -2;
+  }
+
+  .nav-second li input {
+    width: 200px;
   }
 }
